@@ -1,0 +1,10 @@
+.worktrees/
+.superpowers/
+**/bin/
+**/obj/
+TestResults/
+artifacts/
+*.user
+*.suo
+*.pfx
+*.key
