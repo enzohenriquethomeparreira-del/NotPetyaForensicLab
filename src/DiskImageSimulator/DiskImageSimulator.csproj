@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../ForensicTelemetry/ForensicTelemetry.csproj" />
+  </ItemGroup>
+</Project>

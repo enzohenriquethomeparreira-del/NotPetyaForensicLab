@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Shared.Contracts/Shared.Contracts.csproj" />
+    <ProjectReference Include="../ForensicTelemetry/ForensicTelemetry.csproj" />
+    <ProjectReference Include="../DiskImageSimulator/DiskImageSimulator.csproj" />
+    <ProjectReference Include="../HoneypotCrypto/HoneypotCrypto.csproj" />
+    <ProjectReference Include="../LateralMovementSimulator/LateralMovementSimulator.csproj" />
+  </ItemGroup>
+</Project>

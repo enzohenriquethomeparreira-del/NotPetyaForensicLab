@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0",
+  "scenarioId": "11111111-1111-4111-8111-111111111111",
+  "agentId": "22222222-2222-4222-8222-222222222222",
+  "vmFingerprint": "LAB-VM-01",
+  "issuedAtUtc": "2026-09-27T01:00:00+00:00",
+  "expiresAtUtc": "2026-09-27T01:30:00+00:00",
+  "nonce": "0123456789ABCDEF0123456789ABCDEF",
+  "controllerThumbprint": "REPLACE_WITH_SHA256_OF_CONTROLLER_SUBJECT_PUBLIC_KEY_INFO",
+  "paths": {
+    "workingDirectory": "C:\\ForensicLab",
+    "diskImage": "C:\\ForensicLab\\disk.img",
+    "forensicVolume": "C:\\ForensicLab\\volume.img",
+    "offlinePcap": "C:\\ForensicLab\\trace.pcapng",
+    "telemetryJsonl": "C:\\ForensicLab\\events.jsonl",
+    "recoveryEscrow": "C:\\ForensicLab\\escrow.json",
+    "timelineJson": "C:\\ForensicLab\\timeline.json"
+  },
+  "limits": {
+    "maximumVolumeBytes": 16777216,
+    "maximumFiles": 16,
+    "maximumTransformBytes": 8388608,
+    "maximumRuntimeSeconds": 600
+  },
+  "operations": [
+    "CreateForensicVolume",
+    "WriteSyntheticSectorZero",
+    "GenerateOfflinePcap",
+    "EncryptVirtualFiles",
+    "CollectArtifacts"
+  ],
+  "documentationAddresses": ["192.0.2.10", "198.51.100.20"]
+}
